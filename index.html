@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Responsive Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- favicon & bookmark -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <!-- Font Family -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet" />
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Website Title -->
+  <title>Stake | TWOGE CEO</title>
+  <!-- Stylesheets Start -->
+  <link rel="stylesheet" href="cdnjs/ajax/libs/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="shortcut icon" href="images/favicon-32x32.png">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <link href="../unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/fancybox/jquery.fancybox.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/slick.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+  <link rel="stylesheet" href="css/dark.scss">
+  <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.css">
+  <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
+
+</head>
+
+<body class="carbon-layout">
+
+  <div id="walletConnectModal" class="modal">
+    <div class="modal-content">
+        <h2>Choose Your Wallet</h2>
+        <p style="text-align:center;">Please Note: If you are using the MetaMask Mobile App, please select the 'MetaMask' option</p><br/>
+        <div class="row2">
+            <div class="col2" id="modalMMConnect">
+                <img class="mm" src="images/metamask.png" />
+                <h4>MetaMask</h4>
+            </div>
+            <div class="sep2">
+                
+            </div>
+            <div class="col2" id="modalWConnect">
+                <img src="images/walletConnect.png" />
+                <h4>Wallet Connect</h4>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="bg-animation">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div id="stars4"></div>
+  </div>
+
+  <!--Main Wrapper Start-->
+  <div class="" >
+    <!--Header Start -->
+    <!--Header Start -->
+    <header class=""  id="myHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 logo">
+            <a href="#">
+              <div style="width: 50%">
+              <img class="animate__animated fadeIn  light"  src="images/logo.png" alt=""/>
+              <img class="animate__animated fadeIn  dark" src="images/logo.png" alt=""/>
+            </a>
+          </div></div>
+          <div class="col-sm-6 col-md-8">
+            <div class="menu-icon">
+              <span class="top"></span>
+              <span class="middle"></span>
+              <span class="bottom"></span>
+            </div>
+            <nav class="onepage">
+              <ul>
+              <li><a href="https://twogeceo.com">HOME</a></li>
+
+
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header End-->
+    <!--Header End-->
+
+    <!-- Content Section Start -->
+      <!-- Hero Section Start -->
+      <div class=""></div>
+        <div class="container mt-5">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+            </div>
+           
+        
+          </div>
+          
+        </div>
+
+        <div class="containerb">
+          
+           <div class="row animate__animated animate__bounceInUp">
+            <div class="col-lg-12">
+              <div class="card23 glowing neonTextGold">
+                <div class="h3 text-center" data-toggle="collapse" href="#plan1" role="button" aria-expanded="false" aria-controls="plan1" >
+ 
+                </div>
+
+                  <div class="neonText">
+                   
+                    <div>Estimated APY : <span class="roundedDark apyEst" id="apyEst">----</span></div></b>
+                   <hr>
+                    <div>Staked Tokens : <span class="roundedDark totalStaked" id="totalStaked">----</span></div>
+                    <hr>
+                    <div>Rewards In Pool : <span class="roundedDark rewardsRemaining" id="rewardsRemaining">----</span></div>
+                    <hr>
+                    <div>Locked Tokens : <span class="roundedDark stakedLb" id="stakedLb">----</span></div>
+                    <hr>
+                    <div>Pending Rewards : <span class="roundedDark rewardsLb" id="rewardsLb">----</span></div>
+                    <hr>
+                    <div>$TWOGECEO Tokens : <span class="roundedDark balance" id="balance">----</span></div>
+                    <hr>
+                    <div>Unlock Date : <span class="roundedDark unlockLb" id="unlockLb">----</span></div>
+                    <div>
+                      <hr>
+                        <input type="number" placeholder="Enter Token Amount" id="tokenAmtTb" name="tokenAmtTb" class="form-control2" required placeholder="">
+                        <div class="row">
+                          <div class="col mt-3 text-center">
+                            <hr>
+                        <button class="button-30 stakeBtn" id="stakeBtn">Approve</button>
+                        <hr>
+                        <button class="button-30 harvestRewardsBtn" id="harvestRewardsBtn">Claim Rewards</button>
+                        <hr>
+                        <button class="button-30 withdrawTokensBtn" id="withdrawTokensBtn">Withdraw Tokens</button>
+                        <hr>
+                        <div class="bold">Exit Penalty : <span class="roundedDark exitPenaltyPerc" id="exitPenaltyPerc">----</span></div>
+
+                          </div>
+                        </div>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      <!--footer start-->
+      <div class="clear"></div>
+      <!--footer Start-->
+      <footer class="platinum-footer">
+        <div class="footer-widget-area text-center">
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col-lg-8">
+
+                 
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="copy-text" style="color:white">© 2023 TWOGE CEO</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--footer end-->
+
+      
+
+
+
+      <!--Main Wrapper End-->
+
+      <script src="../cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.1/chart.min.js"
+        integrity="sha512-ymysWHuTOgC1h8/MdSMcEyWmmjtfSh/7PYIDCZYIjW9sfS5Lfs5VBGbkPYZSM11L+JzJ3+id+gXDF4ImKcnxgA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/circle-progress.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/onpagescroll.js"></script>
+
+      <script src="js/jquery.countdown.js"></script>
+      <script src="js/owl.carousel.js"></script>
+      <!-- <script src="js/slick.min.js"></script> -->
+      <script src="js/fancybox/jquery.fancybox.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/Chart.js"></script>
+      <script src="js/chart-function.js"></script>
+      <script src="../unpkg.com/aos%402.3.1/dist/aos.js"></script>
+      <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+      <script src="unpkg.com/web3modal%401.9.4/dist/index.js"></script>
+      <script src="unpkg.com/evm-chains%400.2.0/dist/umd/index.min.js"></script>
+      <script src="unpkg.com/%40walletconnect/web3-provider%401.6.2/dist/umd/index.min.js"></script>
+      <script src="unpkg.com/fortmatic%402.2.1/dist/fortmatic.js"></script>
+      <script src="../cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+      <script src="js/stake64eacopy.js"></script>
+      
+
+</body>
+
+</html>
